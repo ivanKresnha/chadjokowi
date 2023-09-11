@@ -1,0 +1,50 @@
+ideas = {
+	mobilization_laws = {
+}
+	economy = {
+}
+	political_advisor = {
+		ivan_kresnha = {
+			allowed = {
+				tag = INS
+			}
+			traits = { man_of_the_nation incognito}
+			picture = "mNkcqslt-1558"
+		}
+}
+	tank_manufacturer = {
+}
+	naval_manufacturer = {
+}
+	aircraft_manufacturer = {
+}
+	materiel_manufacturer = {
+}
+	industrial_concern = {
+}
+	theorist = {
+}
+	army_chief = {
+		rizky_nugraha = {
+			allowed = {
+				tag = INS
+			}
+			traits = {army_chief_maneuver_3}
+			picture = "JVezhrIL-291463"
+		}
+}
+	navy_chief = {
+}
+	air_chief = {
+}
+	high_command = {
+		comrade_commissar_zidan = {
+			allowed = {
+				tag = INS
+			}
+			traits = { army_infantry_3}
+			ledger = army
+			picture = "IMtVuToX-371462"
+		}
+}
+}

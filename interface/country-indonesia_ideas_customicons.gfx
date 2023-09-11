@@ -1,0 +1,21 @@
+spriteTypes = { 
+	##Icon For: Ivan Kresnha
+	SpriteType = { 
+		name = "mNkcqslt-1558"
+		texturefile = "gfx/interface/ideas/INS/mNkcqslt-1558.dds"
+	}
+
+	##Icon For: Rizky Nugraha
+	SpriteType = { 
+		name = "JVezhrIL-291463"
+		texturefile = "gfx/interface/ideas/INS/JVezhrIL-291463.dds"
+	}
+
+	##Icon For: Comrade commissar ZIdan
+	SpriteType = { 
+		name = "IMtVuToX-371462"
+		texturefile = "gfx/interface/ideas/INS/IMtVuToX-371462.dds"
+	}
+
+ 
+ }

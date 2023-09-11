@@ -1,0 +1,135 @@
+ideas = {
+	country = {
+
+		indonesia_chad_movement = {
+			picture = indonesia_chad_movement-1237
+			allowed = {
+				tag = INS
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			cancel = {
+				is_subject = no
+			}
+			targeted_modifier = {
+				is_subject = HOL
+			}
+			modifier = {
+				autonomy_gain = 75
+political_power_daily > 2
+			}
+			on_add = {
+				autonomy_gain = 75
+			}
+			on_remove = {
+				set_rulling_party = f
+			}
+		}
+
+		chad_leading_the_way = {
+			picture = chad_leading_the_way-1946
+			allowed = {
+				tag = INS
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			visible = {
+				has_government = fascism
+is_puppet = no
+			}
+			modifier = {
+				army_leader_cost_factor = -0.5 
+experience_gain_army  = 0.05
+experience_gain_air  = 0.05
+experience_gain_navy = 0.05 
+local_resources_factor = 1
+industrial_capacity_factory = 1
+industrial_capacity_dockyard = 1
+
+			}
+		}
+
+		pancasila = {
+			picture = pancasila-205502
+			allowed = {
+				tag = INS
+			}
+			modifier = {
+				add_stability = 0.2
+				add_war_support = 0.2
+				training_time_army_factor = -0.25
+				command_power_daily > 5
+				training_time_factor = -0.25
+				conscription = 0.005
+				fascism_drift = 0.25
+				production_speed_industrial_complex_factor = 0.5
+				production_speed_infrastructure_factor = 0.5
+			}
+		}
+
+		indonesia_autarky_economy = {
+			picture = indonesia_autarky_economy-372316
+			modifier = {
+				conscription = 0.006
+				production_speed_arms_factory_factor = 0.15 
+				production_speed_industrial_complex_factor = -0.2
+
+			}
+		}
+
+		Eucoysdv = {
+			picture = Eucoysdv-1431
+			allowed = {
+				tag = INS
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			modifier = {
+				navy_org = 20
+				repair_speed_factor = 0.25
+				industrial_capacity_dockyard = 0.5
+				production_speed_naval_base_factor = 0.25
+			}
+		}
+
+		future_of_asia_in_our_hands = {
+			picture = future_of_asia_in_our_hands-371544
+			allowed = {
+				tag = INS
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			modifier = {
+				army_attack_factor = 0.2
+				army_defence_factor = 0.3
+				army_org_regain = 0.2
+				non_core_manpower  = 0.5
+				out_of_supply_factor = -0.05
+				army_leader_start_logistics_level = 1 
+			}
+		}
+
+		indonesia_technocratic_economy = {
+			picture = indonesia_technocratic_economy-372134
+			modifier = {
+				production_speed_industrial_complex_factor = 0.15
+				production_speed_arms_factory_factor = -0.2
+				research_speed_factor = 0.1
+			}
+		}
+
+		together_we_work_for_our_country = {
+			picture = together_we_work_for_our_country-372333
+			modifier = {
+				conscription = 0.003
+				production_speed_industrial_complex_factor = 0.10
+				production_speed_arms_factory_factor = 0.10
+				research_speed_factor = 0.05
+			}
+		}
+	}
+}

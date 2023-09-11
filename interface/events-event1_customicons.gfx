@@ -1,0 +1,21 @@
+spriteTypes = { 
+	##Icon For: Reunited Nusantara?
+	SpriteType = { 
+		name = "reunited_nusantara-838"
+		texturefile = "gfx/interface/events/event1-event/reunited_nusantara-838.dds"
+	}
+
+	##Icon For: Indonesia asking for Timor Leste
+	SpriteType = { 
+		name = "indonesia_asking_for_timor_leste-519"
+		texturefile = "gfx/interface/events/event1-event/indonesia_asking_for_timor_leste-519.dds"
+	}
+
+	##Icon For: Economic intervention
+	SpriteType = { 
+		name = "economic_intervention-665"
+		texturefile = "gfx/interface/events/event1-event/economic_intervention-665.dds"
+	}
+
+ 
+ }

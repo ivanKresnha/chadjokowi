@@ -1,0 +1,18 @@
+INS = {
+	male = {
+		names = {
+			"Gerard Jacometti" "Johannes van Voorst" "Jacob Kraak" "Antonius Scherpenhuijzen" "Freek van Helsdingen" "Christiaan" "Jan Dast Warner" "Jacobus Kraak" "Mathias de Visser" "Govert Tebrunsvelt" "Ilham" "Hans" 
+		}
+	}
+	female = {
+		names = {
+			"" 
+		}
+	}
+	surnames = {
+		"Folmer" "Giesen" "Scherpenhuijzen" "Visser" "Helsdingen" "Voorst" "Gerald" "Deustvroost" "Sandberg" "Landzaat" " Kraak" "Suryadi" "Setiawan" 
+	}
+	callsigns = {
+		"" 
+	}
+}

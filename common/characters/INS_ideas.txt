@@ -1,0 +1,50 @@
+characters = {	ivan_kresnha = {
+		name = ivan_kresnha
+		portraits = {
+			army = {
+			small = "gfx/interface/ideas/INS/mNkcqslt-1558.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = ivan_kresnha
+			allowed = {
+				original_tag = INS
+			}
+			traits = { man_of_the_nation incognito}
+		}
+	}
+	rizky_nugraha = {
+		name = rizky_nugraha
+		portraits = {
+			army = {
+			small = "gfx/interface/ideas/INS/JVezhrIL-291463.dds"
+			}
+		}
+		advisor = {
+			slot = army_chief
+			idea_token = rizky_nugraha
+			allowed = {
+				original_tag = INS
+			}
+			traits = {army_chief_maneuver_3}
+		}
+	}
+	comrade_commissar_zidan = {
+		name = comrade_commissar_zidan
+		portraits = {
+			army = {
+			small = "gfx/interface/ideas/INS/IMtVuToX-371462.dds"
+			}
+		}
+		advisor = {
+			slot = high_command
+			ledger = army
+			idea_token = comrade_commissar_zidan
+			allowed = {
+				original_tag = INS
+			}
+			traits = { army_infantry_3}
+		}
+	}
+}

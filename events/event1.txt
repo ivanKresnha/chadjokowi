@@ -1,0 +1,172 @@
+add_namespace = event1
+
+#Reunited Nusantara?
+country_event = {
+	id = event1.1
+	title = event1.1.t
+	desc = event1.1.d
+
+	picture = reunited_nusantara-838
+	is_triggered_only = yes
+	mean_time_to_happen = { days = 1 }
+	timeout_days = 120
+	option = {
+		name = event1.1.a
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+		FROM = { puppet = ROOT }
+		FROM = { add_stability = -0.25 add_war_support = -0.3 }
+		hidden_effect = {	
+		}
+	}
+	option = {
+		name = event1.1.b
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+		FROM = { annex_country = { target = ROOT transfer_troops = yes } }
+		FROM = { add_stability = -0.2 add_war_support = -0.25 }
+		hidden_effect = {
+			
+		}
+	}
+	option = {
+		name = event1.1.c
+		trigger = {
+			
+		}
+		ai_chance = { factor = 0 }
+		FROM = { create_wargoal = { type = annex_everything target = ROOT } }
+		hidden_effect = {
+			
+		}
+	}
+}
+
+#Indonesia asking for Timor Leste
+country_event = {
+	id = event1.2
+	title = event1.2.t
+	desc = event1.2.d
+
+	picture = indonesia_asking_for_timor_leste-519
+	fire_only_once = yes
+	is_triggered_only = yes
+	timeout_days = 30
+	option = {
+		name = event1.2.a
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+		add_political_power = 150
+		add_opinion_modifier = { target = INS modifier = huge_increase }
+		diplomatic_relation = {
+			country = INS
+			relation = non_aggression_pact
+			active = yes
+		}
+		FROM = { set_state_owner = 721 }
+		FROM = { add_state_core = 721 }
+		hidden_effect = {
+			
+		}
+	}
+	option = {
+		name = event1.2.b
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+		
+		ROOT = { add_offsite_building = { type = industrial_complex level = 3 } }
+		FROM = { set_state_owner = 721 }
+		FROM = { add_state_core = 721 }
+		hidden_effect = {
+			
+		}
+	}
+	option = {
+		name = event1.2.c
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+		
+		ROOT = { add_offsite_building = { type = arms_factory level = 3 } }
+		FROM = { set_state_owner = 721 }
+		FROM = { add_state_core = 721 }
+		hidden_effect = {
+			
+		}
+	}
+	option = {
+		name = event1.2.d
+		trigger = {
+			
+		}
+		ai_chance = { factor = -1 }
+		FROM = { create_wargoal = { type = annex_everything target = ROOT } }
+		hidden_effect = {
+			
+		}
+	}
+}
+
+#Economic intervention
+country_event = {
+	id = event1.3
+	title = event1.3.t
+	desc = event1.3.d
+
+	picture = economic_intervention-665
+	fire_only_once = yes
+	is_triggered_only = yes
+	mean_time_to_happen = { days = 1 }
+	timeout_days = 90
+	option = {
+		name = event1.3.a
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+		add_political_power = -100
+		add_stability = 0.1
+		add_war_support = -0.2
+		add_ideas = indonesia_technocratic_economy
+		hidden_effect = {
+			
+		}
+	}
+	option = {
+		name = event1.3.b
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+		add_political_power = -100
+		add_stability = -0.2
+		add_war_support = 0.1
+		add_ideas = indonesia_autarky_economy
+		hidden_effect = {
+			
+		}
+	}
+	option = {
+		name = event1.3.c
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+		add_political_power = -150
+		add_stability = 0.05
+		add_war_support = 0.05
+		add_ideas = together_we_work_for_our_country!
+		hidden_effect = {
+			
+		}
+	}
+}

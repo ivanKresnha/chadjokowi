@@ -1,0 +1,8 @@
+INS_DIV_0_0 = {	name = "KNIL Division"
+	for_countries = { INS }
+	can_use = { always = yes }
+	division_types = { 
+		"infantry" }
+	}
+	fallback_name = "%d. KNIL Division"
+}

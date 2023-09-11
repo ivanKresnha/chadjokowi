@@ -1,0 +1,86 @@
+characters = {
+#Create country leader - Sutan Sjahrir
+sutan_sjahrir = {
+	name = sutan_sjahrir
+	portraits = {
+		civilian = {
+			#Custom image for Sutan Sjahrir
+			large = "/gfx/leaders/INS/DfWCxuAm-9490.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = despotism
+		traits = {  }
+	}
+}
+
+#Create country leader - Amir Sjarifuddin Harahap
+amir_sjarifuddin_harahap = {
+	name = amir_sjarifuddin_harahap
+	portraits = {
+		civilian = {
+			#Custom image for Amir Sjarifuddin Harahap
+			large = "/gfx/leaders/INS/JwsyXCAv-9832.dds"
+		}
+	}
+	country_leader = {
+		expire = "196.1.1"
+		ideology = stalinism
+		traits = {  }
+	}
+}
+
+#Create country leader - Chad Jokowi Dodo
+chad_jokowi_dodo = {
+	name = chad_jokowi_dodo
+	portraits = {
+		civilian = {
+			#Custom image for Chad Jokowi Dodo
+			large = "/gfx/leaders/INS/MsvRagKH-203822.dds"
+		}
+	}
+	country_leader = {
+		expire = "19651.1.1"
+		ideology = nazism
+		traits = { right_industrialist economic_reformer headstrong national_integralist  war_industrialist nationalist_symbol }
+	}
+}
+
+#Create country leader - A. T. van Starkenborgh Stachouwer
+a_t_van_starkenborgh_stachouwer = {
+	name = a_t_van_starkenborgh_stachouwer
+	portraits = {
+		civilian = {
+			#Custom image for A. T. van Starkenborgh Stachouwer
+			large = "/gfx/leaders/INS/HvwbxNSj-9887.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = socialism
+		traits = {  }
+	}
+}
+
+#Create military leader - Chad Jokowi
+	chad_jokowi = {
+		name = "chad_jokowi"
+		portraits = {
+			army = {
+				#Custom images for Chad Jokowi
+				large = "/gfx/leaders/INS/chad_jokowi-203861.dds"
+				small = "/gfx/interface/ideas/INS/chad_jokowi-203861.dds"
+			}
+		}
+		field_marshal = {
+			traits = { brilliant_strategist inflexible_strategist infantry_officer armor_officer logistics_wizard skilled_staffer panzer_leader adaptable }
+			skill = 10
+			attack_skill = 10
+			defense_skill = 10
+			planning_skill = 10
+			logistics_skill = 10
+		legacy_id = 150430370
+		}
+	}
+}

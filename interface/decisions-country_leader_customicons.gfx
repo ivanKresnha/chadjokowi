@@ -1,0 +1,20 @@
+spriteTypes = { 
+	##Icon For Category: Country Leader
+	SpriteType = { 
+		name = "decision_category_icon_country_leader"
+		texturefile = "gfx/interface/decisions/decision_category_icon_country_leader.dds"
+	}
+
+	##Picture For: Country Leader
+	SpriteType = { 
+		name = "decision_category_picture_country_leader"
+		texturefile = "gfx/interface/decisions/decision_category_picture_country_leader.dds"
+	}
+
+	##Icon For: grant him to be our leader
+	SpriteType = { 
+		name = "decision_icon_grant_him_to_be_our_leader"
+		texturefile = "gfx/interface/decisions/decision_icon_grant_him_to_be_our_leader.dds"
+	}
+
+}

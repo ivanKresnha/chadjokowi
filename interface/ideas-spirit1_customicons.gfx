@@ -1,0 +1,51 @@
+spriteTypes = { 
+	##Icon For: Indonesia Chad Movement
+	SpriteType = { 
+		name = "GFX_idea_indonesia_chad_movement-1237"
+		texturefile = "gfx/interface/ideas/spirit1-ideas/indonesia_chad_movement-1237.dds"
+	}
+
+	##Icon For: Chad Leading the way
+	SpriteType = { 
+		name = "GFX_idea_chad_leading_the_way-1946"
+		texturefile = "gfx/interface/ideas/spirit1-ideas/chad_leading_the_way-1946.dds"
+	}
+
+	##Icon For: Pancasila
+	SpriteType = { 
+		name = "GFX_idea_pancasila-205502"
+		texturefile = "gfx/interface/ideas/spirit1-ideas/pancasila-205502.dds"
+	}
+
+	##Icon For: Indonesia Autarky economy
+	SpriteType = { 
+		name = "GFX_idea_indonesia_autarky_economy-372316"
+		texturefile = "gfx/interface/ideas/spirit1-ideas/indonesia_autarky_economy-372316.dds"
+	}
+
+	##Icon For: Maritime shield
+	SpriteType = { 
+		name = "GFX_idea_Eucoysdv-1431"
+		texturefile = "gfx/interface/ideas/spirit1-ideas/Eucoysdv-1431.dds"
+	}
+
+	##Icon For: Future of Asia in our Hands!
+	SpriteType = { 
+		name = "GFX_idea_future_of_asia_in_our_hands-371544"
+		texturefile = "gfx/interface/ideas/spirit1-ideas/future_of_asia_in_our_hands-371544.dds"
+	}
+
+	##Icon For: Indonesia Technocratic economy
+	SpriteType = { 
+		name = "GFX_idea_indonesia_technocratic_economy-372134"
+		texturefile = "gfx/interface/ideas/spirit1-ideas/indonesia_technocratic_economy-372134.dds"
+	}
+
+	##Icon For: Together we work for our country!
+	SpriteType = { 
+		name = "GFX_idea_together_we_work_for_our_country-372333"
+		texturefile = "gfx/interface/ideas/spirit1-ideas/together_we_work_for_our_country-372333.dds"
+	}
+
+ 
+ }
